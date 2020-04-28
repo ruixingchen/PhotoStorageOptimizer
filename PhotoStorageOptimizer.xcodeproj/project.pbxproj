@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B14EF7245841FC00FE4A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14EF6245841FC00FE4A6D /* AppDelegate.swift */; };
+		80B14EF9245841FC00FE4A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14EF8245841FC00FE4A6D /* ViewController.swift */; };
+		80B14EFB245841FD00FE4A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B14EFA245841FD00FE4A6D /* Assets.xcassets */; };
+		80B14EFE245841FD00FE4A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B14EFC245841FD00FE4A6D /* Main.storyboard */; };
+		9F5BFCAD814395B56A52D749 /* Pods_PhotoStorageOptimizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AE9843F0735E94E9D55C29 /* Pods_PhotoStorageOptimizer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FFAD39833D60E7EC31D5318 /* Pods-PhotoStorageOptimizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStorageOptimizer.release.xcconfig"; path = "Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer.release.xcconfig"; sourceTree = "<group>"; };
+		80B14EF3245841FC00FE4A6D /* PhotoStorageOptimizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStorageOptimizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B14EF6245841FC00FE4A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B14EF8245841FC00FE4A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B14EFA245841FD00FE4A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B14EFD245841FD00FE4A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B14EFF245841FD00FE4A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B14F00245841FD00FE4A6D /* PhotoStorageOptimizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoStorageOptimizer.entitlements; sourceTree = "<group>"; };
+		B5AE9843F0735E94E9D55C29 /* Pods_PhotoStorageOptimizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStorageOptimizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEB4AE0CC0265FD47FFDDBD /* Pods-PhotoStorageOptimizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStorageOptimizer.debug.xcconfig"; path = "Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B14EF0245841FC00FE4A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BFCAD814395B56A52D749 /* Pods_PhotoStorageOptimizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2530584152BCABC2261DC69F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB4AE0CC0265FD47FFDDBD /* Pods-PhotoStorageOptimizer.debug.xcconfig */,
+				2FFAD39833D60E7EC31D5318 /* Pods-PhotoStorageOptimizer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80B14EEA245841FC00FE4A6D = {
+			isa = PBXGroup;
+			children = (
+				80B14EF5245841FC00FE4A6D /* PhotoStorageOptimizer */,
+				80B14EF4245841FC00FE4A6D /* Products */,
+				2530584152BCABC2261DC69F /* Pods */,
+				AE957D2FAF114C192FD9AE2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80B14EF4245841FC00FE4A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B14EF3245841FC00FE4A6D /* PhotoStorageOptimizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B14EF5245841FC00FE4A6D /* PhotoStorageOptimizer */ = {
+			isa = PBXGroup;
+			children = (
+				80B14EF6245841FC00FE4A6D /* AppDelegate.swift */,
+				80B14EF8245841FC00FE4A6D /* ViewController.swift */,
+				80B14EFA245841FD00FE4A6D /* Assets.xcassets */,
+				80B14EFC245841FD00FE4A6D /* Main.storyboard */,
+				80B14EFF245841FD00FE4A6D /* Info.plist */,
+				80B14F00245841FD00FE4A6D /* PhotoStorageOptimizer.entitlements */,
+			);
+			path = PhotoStorageOptimizer;
+			sourceTree = "<group>";
+		};
+		AE957D2FAF114C192FD9AE2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE9843F0735E94E9D55C29 /* Pods_PhotoStorageOptimizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B14EF2245841FC00FE4A6D /* PhotoStorageOptimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B14F03245841FD00FE4A6D /* Build configuration list for PBXNativeTarget "PhotoStorageOptimizer" */;
+			buildPhases = (
+				84CBA1CE37014CFBE80F3495 /* [CP] Check Pods Manifest.lock */,
+				80B14EEF245841FC00FE4A6D /* Sources */,
+				80B14EF0245841FC00FE4A6D /* Frameworks */,
+				80B14EF1245841FC00FE4A6D /* Resources */,
+				F2F085D5E2F7EFE5FBAEC0D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoStorageOptimizer;
+			productName = PhotoStorageOptimizer;
+			productReference = 80B14EF3245841FC00FE4A6D /* PhotoStorageOptimizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B14EEB245841FC00FE4A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = ruixingchen;
+				TargetAttributes = {
+					80B14EF2245841FC00FE4A6D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 80B14EEE245841FC00FE4A6D /* Build configuration list for PBXProject "PhotoStorageOptimizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B14EEA245841FC00FE4A6D;
+			productRefGroup = 80B14EF4245841FC00FE4A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B14EF2245841FC00FE4A6D /* PhotoStorageOptimizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B14EF1245841FC00FE4A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B14EFB245841FD00FE4A6D /* Assets.xcassets in Resources */,
+				80B14EFE245841FD00FE4A6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84CBA1CE37014CFBE80F3495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStorageOptimizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F085D5E2F7EFE5FBAEC0D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B14EEF245841FC00FE4A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B14EF9245841FC00FE4A6D /* ViewController.swift in Sources */,
+				80B14EF7245841FC00FE4A6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80B14EFC245841FD00FE4A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B14EFD245841FD00FE4A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B14F01245841FD00FE4A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80B14F02245841FD00FE4A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		80B14F04245841FD00FE4A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEB4AE0CC0265FD47FFDDBD /* Pods-PhotoStorageOptimizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoStorageOptimizer/PhotoStorageOptimizer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhotoStorageOptimizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruixingchen.PhotoStorageOptimizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		80B14F05245841FD00FE4A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFAD39833D60E7EC31D5318 /* Pods-PhotoStorageOptimizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoStorageOptimizer/PhotoStorageOptimizer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhotoStorageOptimizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruixingchen.PhotoStorageOptimizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B14EEE245841FC00FE4A6D /* Build configuration list for PBXProject "PhotoStorageOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B14F01245841FD00FE4A6D /* Debug */,
+				80B14F02245841FD00FE4A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B14F03245841FD00FE4A6D /* Build configuration list for PBXNativeTarget "PhotoStorageOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B14F04245841FD00FE4A6D /* Debug */,
+				80B14F05245841FD00FE4A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B14EEB245841FC00FE4A6D /* Project object */;
+}
