@@ -27,6 +27,7 @@
 		80295DB1250347DC001516D6 /* HEICViewController+FormatOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HEICViewController+FormatOptionView.swift"; sourceTree = "<group>"; };
 		80295DB3250348EF001516D6 /* HEICViewController+QualityOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HEICViewController+QualityOptionView.swift"; sourceTree = "<group>"; };
 		80295DB525037626001516D6 /* HEICConverterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEICConverterOption.swift; sourceTree = "<group>"; };
+		80295DB725038CE5001516D6 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标.png"; sourceTree = "<group>"; };
 		803DE02424B0741A00C44457 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8087C1D724AF40A60031B840 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 		80882B572469A40800A8617F /* JpegDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JpegDeleteViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		80B14EEA245841FC00FE4A6D = {
 			isa = PBXGroup;
 			children = (
+				80295DB725038CE5001516D6 /* 图标.png */,
 				80B14EF5245841FC00FE4A6D /* PhotoStorageOptimizer */,
 				80B14EF4245841FC00FE4A6D /* Products */,
 				2530584152BCABC2261DC69F /* Pods */,

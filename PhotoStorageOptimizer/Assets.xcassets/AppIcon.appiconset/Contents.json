@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "16x16-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055.png",
+      "filename" : "16.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "16x16-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "filename" : "32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "32x32-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055.png",
+      "filename" : "32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "32x32-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "filename" : "64.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "128x128-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055.png",
+      "filename" : "128.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "128x128-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "filename" : "256.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "256x256-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055.png",
+      "filename" : "256.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "256x256-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "filename" : "512.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "512x512-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055.png",
+      "filename" : "512.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "512x512-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "filename" : "1024.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

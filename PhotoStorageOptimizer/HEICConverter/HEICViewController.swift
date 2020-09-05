@@ -17,7 +17,8 @@ class HEICConvertDetail {
     var convertedURL: Result<URL, Error>?
     var originSize: UInt64 = 0
     var convertedSize: UInt64 = 0
-    var duration: TimeInterval = 0
+    var startTime: TimeInterval = 0
+    var endTime: TimeInterval = 0
 
     init(url: URL) {
         self.url = url
@@ -195,7 +196,8 @@ class HEICViewController: NSViewController {
                 detail?.convertedURL = newDetail.convertedURL
                 detail?.convertedSize = newDetail.convertedSize
                 detail?.originSize = newDetail.originSize
-                detail?.duration = newDetail.duration
+                detail?.startTime = newDetail.startTime
+                detail?.endTime = newDetail.endTime
                 DispatchQueue.main.async {
                     self.updateMessage(details: convertDetail.map({$0.value}))
                 }
@@ -211,7 +213,7 @@ class HEICViewController: NSViewController {
     func convert(url: URL, options: HEICConverterOption)->HEICConvertDetail {
         let detail: HEICConvertDetail = HEICConvertDetail(url: url)
         detail.convertedURL = Result.failure(NSError())
-        let startTime = Date().timeIntervalSince1970
+        detail.startTime = Date().timeIntervalSince1970
         guard let originData: Data = try? Data.init(contentsOf: url) else {return detail}
         guard let convertedData: Data = HEICConverter.imageDataToHEICData(originData, quality: options.quality).value else {return detail}
 
@@ -253,7 +255,7 @@ class HEICViewController: NSViewController {
         }catch {
             //删除原始文件错误, 我们仍然认为转换成功了
         }
-        detail.duration = Date().timeIntervalSince1970 - startTime
+        detail.endTime = Date().timeIntervalSince1970
         return detail
     }
 
@@ -263,7 +265,8 @@ class HEICViewController: NSViewController {
         var convertedSizeSum: Int64 = 0
         var successNum: Int = 0
         var failedNum: Int = 0
-        var totalDuration: TimeInterval = 0
+        var starTime: TimeInterval = TimeInterval.greatestFiniteMagnitude
+        var endTime: TimeInterval = 0
 
         for i in details {
             allOriginSizeSum += Int64(i.originSize)
@@ -272,7 +275,8 @@ class HEICViewController: NSViewController {
                     originSizeSum += Int64(i.originSize)
                     convertedSizeSum += Int64(i.convertedSize)
                     successNum += 1
-                    totalDuration += i.duration
+                    starTime = min(starTime, i.startTime)
+                    endTime = max(endTime, i.endTime)
                 }else {
                     failedNum += 1
                 }
@@ -283,12 +287,12 @@ class HEICViewController: NSViewController {
 
         let progress = Double(successNum+failedNum) / Double(details.count)
         self.progressBar.doubleValue = progress
-        print(self.progressBar.doubleValue)
 
         let compressRate = Float(convertedSizeSum) / Float(max(1, originSizeSum))
         let compressedSize = originSizeSum - convertedSizeSum
         let timeRemainText:String = {
-            let timeRemain = TimeInterval(details.count - successNum - failedNum) * totalDuration / TimeInterval(successNum)
+            let average = (endTime - starTime) / TimeInterval(successNum)
+            let timeRemain = TimeInterval(details.count - successNum - failedNum) * average
             let m = Int(timeRemain/60)
             let s = Int(timeRemain) % 60
             return m.description + ":" + s.description
@@ -301,7 +305,7 @@ class HEICViewController: NSViewController {
         }else {
             message += "Converting, "
         }
-        message += "\(successNum) success, \(failedNum) failed, \(ByteCountFormatter().string(fromByteCount: allOriginSizeSum))"
+        message += "total \(details.count), \(successNum) success, \(failedNum) failed, \(ByteCountFormatter().string(fromByteCount: allOriginSizeSum))"
         if !finish {
             message += ", \(timeRemainText) remain"
         }
