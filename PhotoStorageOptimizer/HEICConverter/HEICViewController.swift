@@ -247,7 +247,7 @@ class HEICViewController: NSViewController {
             detail.convertedURL = Result.failure(NSError())
         }
         do {
-            if !options.keepOrigin {
+            if !options.keepOrigin && url.pathExtension.lowercased() != "heic" {
                 try FileManager.default.trashItem(at: url, resultingItemURL: nil)
             }
         }catch {

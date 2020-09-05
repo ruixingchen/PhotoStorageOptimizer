@@ -19,7 +19,7 @@ extension HEICViewController {
             var items = (1...processorNum).filter({$0.isMultiple(of: 2)}).map({"\($0)"})
             items.insert("1", at: 0)
             box.addItems(withObjectValues:items)
-            box.stringValue = "\(processorNum)"
+            box.stringValue = "\(processorNum/2)"
             return box
         }()
         let qualityLabel = NSTextField(labelWithString: "Quality: 0.75")
