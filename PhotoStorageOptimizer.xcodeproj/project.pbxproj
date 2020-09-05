@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80295DB2250347DC001516D6 /* HEICViewController+FormatOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80295DB1250347DC001516D6 /* HEICViewController+FormatOptionView.swift */; };
+		80295DB4250348EF001516D6 /* HEICViewController+QualityOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80295DB3250348EF001516D6 /* HEICViewController+QualityOptionView.swift */; };
+		80295DB625037626001516D6 /* HEICConverterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80295DB525037626001516D6 /* HEICConverterOption.swift */; };
+		803DE02524B0741A00C44457 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DE02424B0741A00C44457 /* Extensions.swift */; };
+		8087C1D824AF40A60031B840 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8087C1D724AF40A60031B840 /* FileHelper.swift */; };
+		80882B582469A40800A8617F /* JpegDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80882B572469A40800A8617F /* JpegDeleteViewController.swift */; };
+		80AFADD9245AA96D00FF49A4 /* HEICConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFADD8245AA96D00FF49A4 /* HEICConverter.swift */; };
 		80B14EF7245841FC00FE4A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14EF6245841FC00FE4A6D /* AppDelegate.swift */; };
-		80B14EF9245841FC00FE4A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14EF8245841FC00FE4A6D /* ViewController.swift */; };
 		80B14EFB245841FD00FE4A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B14EFA245841FD00FE4A6D /* Assets.xcassets */; };
 		80B14EFE245841FD00FE4A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B14EFC245841FD00FE4A6D /* Main.storyboard */; };
+		80B14F0724584AC100FE4A6D /* HEICViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14F0624584AC100FE4A6D /* HEICViewController.swift */; };
 		9F5BFCAD814395B56A52D749 /* Pods_PhotoStorageOptimizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AE9843F0735E94E9D55C29 /* Pods_PhotoStorageOptimizer.framework */; };
+		E9044B8D994890D791B6C7D0 /* RXCDragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90441E5AE466525E30961AE /* RXCDragDropView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FFAD39833D60E7EC31D5318 /* Pods-PhotoStorageOptimizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStorageOptimizer.release.xcconfig"; path = "Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer.release.xcconfig"; sourceTree = "<group>"; };
+		80295DB1250347DC001516D6 /* HEICViewController+FormatOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HEICViewController+FormatOptionView.swift"; sourceTree = "<group>"; };
+		80295DB3250348EF001516D6 /* HEICViewController+QualityOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HEICViewController+QualityOptionView.swift"; sourceTree = "<group>"; };
+		80295DB525037626001516D6 /* HEICConverterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEICConverterOption.swift; sourceTree = "<group>"; };
+		803DE02424B0741A00C44457 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8087C1D724AF40A60031B840 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		80882B572469A40800A8617F /* JpegDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JpegDeleteViewController.swift; sourceTree = "<group>"; };
+		80AFADD8245AA96D00FF49A4 /* HEICConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEICConverter.swift; sourceTree = "<group>"; };
 		80B14EF3245841FC00FE4A6D /* PhotoStorageOptimizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStorageOptimizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B14EF6245841FC00FE4A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80B14EF8245841FC00FE4A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80B14EFA245841FD00FE4A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B14EFD245841FD00FE4A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B14EFF245841FD00FE4A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B14F00245841FD00FE4A6D /* PhotoStorageOptimizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoStorageOptimizer.entitlements; sourceTree = "<group>"; };
+		80B14F0624584AC100FE4A6D /* HEICViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEICViewController.swift; sourceTree = "<group>"; };
 		B5AE9843F0735E94E9D55C29 /* Pods_PhotoStorageOptimizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStorageOptimizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90441E5AE466525E30961AE /* RXCDragDropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RXCDragDropView.swift; sourceTree = "<group>"; };
 		EDEB4AE0CC0265FD47FFDDBD /* Pods-PhotoStorageOptimizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStorageOptimizer.debug.xcconfig"; path = "Target Support Files/Pods-PhotoStorageOptimizer/Pods-PhotoStorageOptimizer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,8 +61,27 @@
 				EDEB4AE0CC0265FD47FFDDBD /* Pods-PhotoStorageOptimizer.debug.xcconfig */,
 				2FFAD39833D60E7EC31D5318 /* Pods-PhotoStorageOptimizer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		80882B562469A3F100A8617F /* JPEGDelete */ = {
+			isa = PBXGroup;
+			children = (
+				80882B572469A40800A8617F /* JpegDeleteViewController.swift */,
+			);
+			path = JPEGDelete;
+			sourceTree = "<group>";
+		};
+		80AFADD7245AA94D00FF49A4 /* HEICConverter */ = {
+			isa = PBXGroup;
+			children = (
+				80AFADD8245AA96D00FF49A4 /* HEICConverter.swift */,
+				80295DB525037626001516D6 /* HEICConverterOption.swift */,
+				80B14F0624584AC100FE4A6D /* HEICViewController.swift */,
+				80295DB1250347DC001516D6 /* HEICViewController+FormatOptionView.swift */,
+				80295DB3250348EF001516D6 /* HEICViewController+QualityOptionView.swift */,
+			);
+			path = HEICConverter;
 			sourceTree = "<group>";
 		};
 		80B14EEA245841FC00FE4A6D = {
@@ -70,8 +105,12 @@
 		80B14EF5245841FC00FE4A6D /* PhotoStorageOptimizer */ = {
 			isa = PBXGroup;
 			children = (
+				8087C1D724AF40A60031B840 /* FileHelper.swift */,
+				803DE02424B0741A00C44457 /* Extensions.swift */,
+				80882B562469A3F100A8617F /* JPEGDelete */,
+				80AFADD7245AA94D00FF49A4 /* HEICConverter */,
+				E90441E5AE466525E30961AE /* RXCDragDropView.swift */,
 				80B14EF6245841FC00FE4A6D /* AppDelegate.swift */,
-				80B14EF8245841FC00FE4A6D /* ViewController.swift */,
 				80B14EFA245841FD00FE4A6D /* Assets.xcassets */,
 				80B14EFC245841FD00FE4A6D /* Main.storyboard */,
 				80B14EFF245841FD00FE4A6D /* Info.plist */,
@@ -202,8 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B14EF9245841FC00FE4A6D /* ViewController.swift in Sources */,
+				80B14F0724584AC100FE4A6D /* HEICViewController.swift in Sources */,
 				80B14EF7245841FC00FE4A6D /* AppDelegate.swift in Sources */,
+				80295DB2250347DC001516D6 /* HEICViewController+FormatOptionView.swift in Sources */,
+				803DE02524B0741A00C44457 /* Extensions.swift in Sources */,
+				80882B582469A40800A8617F /* JpegDeleteViewController.swift in Sources */,
+				80295DB625037626001516D6 /* HEICConverterOption.swift in Sources */,
+				E9044B8D994890D791B6C7D0 /* RXCDragDropView.swift in Sources */,
+				8087C1D824AF40A60031B840 /* FileHelper.swift in Sources */,
+				80AFADD9245AA96D00FF49A4 /* HEICConverter.swift in Sources */,
+				80295DB4250348EF001516D6 /* HEICViewController+QualityOptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +394,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruixingchen.PhotoStorageOptimizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -366,6 +414,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruixingchen.PhotoStorageOptimizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

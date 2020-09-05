@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "128x128-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "256x256-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "512x512-Danbooru Izumi Sagiri 3046733 610005863cf8b057c43647b944198055@2x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
